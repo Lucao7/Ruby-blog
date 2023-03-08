@@ -8,7 +8,7 @@
 
 - Database creation and initialization - rails db:migrate
 
-- Configuration - rails build // bundle
+- Configuration - rails build // bundle install
 
 - Run - rails server (It will host on http://127.0.0.1:3000/posts)
 
