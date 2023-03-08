@@ -12,6 +12,9 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
+    unless user_signed_in?
+      redirect_to new_user_session_path
+    end
     @post = Post.new
   end
 
